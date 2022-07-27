@@ -20,9 +20,11 @@
     "react-scripts": "5.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+   
+   "start": "./node_modules/.bin/netlify-lambda serve src",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    
+    "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
